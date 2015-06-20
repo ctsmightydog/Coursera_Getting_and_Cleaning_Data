@@ -2,7 +2,7 @@
 
 ##Introduction
 This repository is for a programming assignment for the Coursera course "Getting and Cleaning data" which looks at data collected from the accelerometers from the Samsung Galaxy S smartphone. 
-This repository contains this readme.file, the R script for the analysis, and a codebook (markdown file). The goal of the script is to prepare a tidy data set from the Samsung data that can be used for later analysis.
+This repository contains this readme file, the R script for the analysis, and a codebook (markdown file). The goal of the script is to prepare a tidy data set from the Samsung data that can be used for later analysis.
 
 ##Background of the data
 The full background of the data can be found at this website:
