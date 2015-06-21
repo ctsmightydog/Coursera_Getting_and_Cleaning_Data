@@ -69,15 +69,15 @@ run_analysis.R script has the following requirements to perform transformation o
 
 ##Transformations performed on the original data set:
 1. Merging of training and test data sets to combine one large data frame:
-#1a. Reads and formats the training data set to one form training data frame by the following steps:
-# reads in the training data information and add replaces default column names with names in features.txt
-# reads in the labels for the activity ID (values from 1 to 6) and renames the column (Activity.Number)
-# reads in the subjects number and renames the column to a more descriptive name (Subject)
+1a. Reads and formats the training data set to one form training data frame by the following steps:
+* reads in the training data information and add replaces default column names with names in features.txt
+* reads in the labels for the activity ID (values from 1 to 6) and renames the column (Activity.Number)
+* reads in the subjects number and renames the column to a more descriptive name (Subject)
 
-#1b. Reads and formats the test data set to form another data frame (test) data frame:
-# reads in the test data information and add replaces default column names with names in features.txt
-# reads in the labels for the activity ID (values from 1 to 6) and renames the column (Activity.Number)
-# reads in the subjects number and renames the column to a more descriptive name (Subject)
+1b. Reads and formats the test data set to form another data frame (test) data frame:
+* reads in the test data information and add replaces default column names with names in features.txt
+* reads in the labels for the activity ID (values from 1 to 6) and renames the column (Activity.Number)
+* reads in the subjects number and renames the column to a more descriptive name (Subject)
 
 * Merges the training and test data frames together to make one large data frame of 10299 rows x 561 columns.
 
