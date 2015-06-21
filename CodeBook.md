@@ -40,13 +40,13 @@ the total acceleration. - train/Inertial Signals/body_gyro_x_train.txt: The angu
 
 ##Information about the files to be used in analysis from Source Data
 * These two files are used for both the training and test groups:
-features.txt: 561 rows of 2 varibles (feature Identifier and feature Name) 
-activity_labels.txt: 6 rows of 2 variables (activity identifier and activity name)
+⋅⋅*features.txt: 561 rows of 2 varibles (feature Identifier and feature Name) 
+⋅⋅*activity_labels.txt: 6 rows of 2 variables (activity identifier and activity name)
 
 * Training data set:
-X_train.txt: 7352 rows of 561 measurement variables. These are the actual measurement variables listed in features.txt
-y_train.txt: 7352 rows of 1 variable. This is the activity identifier
-subject_train.txt: 7352 rows of 1 variable. This is the person (subject) identifier.
+⋅⋅*X_train.txt: 7352 rows of 561 measurement variables. These are the actual measurement variables listed in features.txt
+⋅⋅*y_train.txt: 7352 rows of 1 variable. This is the activity identifier
+⋅⋅*subject_train.txt: 7352 rows of 1 variable. This is the person (subject) identifier.
 
 * Test Data set:
 X_Test.txt: 2947 rows of 561 measurement variables. These are the actual measurement variables listed in features.txt 
