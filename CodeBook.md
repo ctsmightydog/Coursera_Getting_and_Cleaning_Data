@@ -57,8 +57,8 @@ the total acceleration. - train/Inertial Signals/body_gyro_x_train.txt: The angu
 ##Map of aggregated Data
 | Subject           | ActivityId  | data(variable names from features.txt) |
 |-------------------|-------------|----------------------------------------|
-| subject_train.txt | y_train.txt | X_testTest.txt                         |
-| subject_test.txt  | y_test.txt  | X_train                                |
+| subject_train.txt | y_train.txt | X_train.txt                            |
+| subject_test.txt  | y_test.txt  | X_test                                 |
 
 
 ##Requirements of the run_analysis.R script
