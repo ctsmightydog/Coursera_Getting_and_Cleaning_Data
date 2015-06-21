@@ -97,6 +97,8 @@ This format is the same for all 66 variables and the detailed description of eac
 5. Created a new tidy data set with the average of each variable for each activity and subject.
 This data frame has 180 observations/rows and 68 columns/variables
 68 columns(1 column for Activity and one column for Subject and 66 columns for measurement variables)
+The units in the tidy data file are average values from each variable (column) and are floating point numbers in 
+the range of -1 to 1.
 
 ##Tidy Data File
 The Tidy data frame is written to a file using write.table function to create a 
