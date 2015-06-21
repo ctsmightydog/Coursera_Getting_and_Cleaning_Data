@@ -55,9 +55,9 @@ subject_test.txt: 2497 rows of 1 variable (subject Identifier)
 
 
 ##Map of aggregated Data
-Subject				ActivityId		data(variable names from features.txt)
-subject_train.txt	y_train.txt		X_testTest.txt
-subject_test.txt	y_test.txt		X_train
+Subject             |ActivityId    |data(variable names from features.txt)
+subject_train.txt   |y_train.txt   |X_testTest.txt
+subject_test.txt    |y_test.txt    |X_train
 
 ##Requirements of the run_analysis.R script
 run_analysis.R script has the following requirements to perform transformation on UCI HAR Dataset.
